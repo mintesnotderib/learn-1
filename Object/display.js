@@ -7,7 +7,7 @@ const car=
 }
 let text="";
 for(let x in car){
- text+=car[x]+" ";
+ console.log(car[x]);
 
 }
 
