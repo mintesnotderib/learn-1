@@ -53,3 +53,24 @@ hamer
 volvo
 undefined
 Audi */
+
+
+const myObj = {
+  name: "John",
+  age: 30,
+  cars: [
+    {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+    {name:"BMW", models:["320", "X3", "X5"]},
+    {name:"Fiat", models:["500", "Panda"]}
+  ]
+}
+
+// Using for...of loop to iterate over cars
+for (let car of myObj.cars) {
+  console.log(car.name);  // Log the car name
+  
+  // Using for...of loop to iterate over the models of each car
+  for (let model of car.models) {
+    console.log(model);  // Log each car model
+  }
+}

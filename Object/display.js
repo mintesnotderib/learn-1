@@ -7,13 +7,15 @@ const car=
 }
 let text="";
 for(let x in car){
- console.log(car[x]);
+
+ text+=car[x]+" ";
 
 }
 
 console.log(text);
-
-console.log(Object.values(car));
+const x=Object.values(car);//create x array [ 'BMW', '5 Series', 2021, 'blue' ]
+console.log(x);
+console.log(x[0])//
 
 console.log(car);
 

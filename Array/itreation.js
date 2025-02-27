@@ -69,3 +69,4 @@ console.log(some1); // true some the array elements are greateerthan 3
       const month=["januaray", "february", "april", "may"]
       const months=month.with(2,"march")// only take two argumments
       console.log(months); // ["januaray", "february", "march", "april", "may"]
+

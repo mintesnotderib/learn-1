@@ -18,3 +18,5 @@ console.log(x)
 let y;
 
 console.log(y??4)//if the first value is undefined or null, the second value is assigned. otherwise the first value is assigned
+
+console.log(~5)

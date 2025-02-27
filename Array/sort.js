@@ -43,6 +43,7 @@ for(let i=0; i<points.length; i++) {
     }
      console.log(arr(p))//return 1 or the min value in the array
      /*Math.max.apply(null, [1, 2, 3])  is equivalent to Math.max(1, 2, 3). */
+     console.log(Math.max(...[1, 2, 3]))//return 3
 
      const q=[3,2,5,1,5];
      let min=q[0],len=q.length;
