@@ -15,3 +15,7 @@ function callback({age}){
  {
   console.log(x.name + " can't drink alchol")
  }
+console.log(decesion)/*Map(2) {
+ 'noalchol' => [ { name: 'solomon', age: 16 } ],
+ 'alchoal' => [ { name: 'mintesnot', age: 19 }, { name: 'birtukan', age: 22 } ]
+}*/

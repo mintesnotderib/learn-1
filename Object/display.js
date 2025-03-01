@@ -24,3 +24,6 @@ for(let[names,value] of Object.entries(car))
   console.log(names,value);}
 
   console.log(JSON.stringify(car));
+const mymap=new Map(Object.entries(car))
+console.log(typeof mymap,mymap)
+console.log(mymap.get("brand"))//BMW

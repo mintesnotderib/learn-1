@@ -34,4 +34,4 @@ const x=new Map([["apple",1],["orange",2],["mango",3]])//[key,value]
   const c={name:"deblilachew"}
    const d=new Map();
    d.set(a,500);
-   console.log(d.get(a))//500 object as a key
+   console.log(d.get(a))//500 .....object as a key

@@ -8,7 +8,7 @@ const person =
 const person2 = { name: "zente",grade:"A" };
 Object.assign(person, person2);
 console.log(person.name)//is zente no lomger mintesnot
-console.log(person.grade)
+console.log(person.grade)//A it adds grade object to a peerson because it assign by them
 
 console.log(person.constructor);//tell to me the person is an object
 console.log(person);
