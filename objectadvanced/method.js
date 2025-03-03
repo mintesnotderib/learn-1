@@ -18,7 +18,7 @@ function callback({ age }) {
 
  return age > 18 ? "alchoal" : "noalchol";
 }
-const newfun = Object.groupBy(family, callback)//create an array bygroub
+const newfun = Object.groupBy(family, callback)//create an array bygroup
 for (let [x, y] of newfun.alchoal.entries()) {
  console.log(x, y)
 }

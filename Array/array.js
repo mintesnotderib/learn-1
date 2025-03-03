@@ -1,5 +1,6 @@
 const car=["toyota","merchedes","hamer"]
-console.log(car.toString());//toyota,merchedes,hamer
+const x=car.toString();
+console.log(x);//toyota,merchedes,hamer
 console.log(car);//[ 'toyota', 'merchedes', 'hamer' ]
 console.log(typeof(car))// object b/c array is the special type of object
 
@@ -31,13 +32,14 @@ console.log(myArray[2]);  // Outputs: ["Volvo", "BMW", "Audi"]
 for(let i=0; i<car.length; i++){
   console.log(car[i]);
 }
-let text="";
+let text=" ";
 car.forEach(myfunction)
-  console.log(text);//toyotamerchedeshamer
+  
 
 function myfunction(value){
   text=text+value;
 }
+console.log(text," ");//toyotamerchedeshamer
 car.push("volvo");
 for(let i=0; i<car.length; i++){
   console.log(car[i]);

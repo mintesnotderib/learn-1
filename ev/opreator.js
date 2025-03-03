@@ -13,3 +13,13 @@ x>>=2;// divid by 2^n and round to the smallest integer (00000000 00000000 00000
 x=5;
  x<<=2;
  console.log(x);//multiply by 2^n 
+ let z = true;
+let y = false;
+z &&= y; // x becomes false
+ x = false;
+ y = true;
+x ||= y; // x becomes true
+ x = null;
+ y = "Hello";
+x ??= y; // x becomes "Hello"
+
