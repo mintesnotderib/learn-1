@@ -3,6 +3,7 @@ const family=["Solomon","Mintesnot","Birtukan","Getachew","Birhanu","Dereje","Yo
 console.log(family.sort())// Sorting the family array in alphabetical order
 
 console.log(family.reverse())// Reversing the family 
+console.log(family)//already change the family
 
 const memebers=family.toSorted()//the same to sort but in this create new array
 console.log(memebers)
@@ -32,7 +33,7 @@ function shuffleArray() {
 }
 
 shuffleArray();
-console.log("Shuffled Array:", points);
+console.log("randomed Array:", points);
 for(let i=0; i<points.length; i++) {
   console.log(points[i]);}
 

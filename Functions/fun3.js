@@ -11,7 +11,7 @@ console.log(name);//here is mintesnot because always function call by value
  console.log("i call myself")
 })();
 
-function sum(a, b = 3) {//default parameter
+function sum(a, b = 3) {//default parameter 
  console.log(arguments.length)// 2 the recived argument length
  return a + b
 }
@@ -42,6 +42,7 @@ function arr(){//arguments is an array and always contain the passed argument wh
 console.log(arr(100,34,56,78,23))
 
 function myage(person){
+  
  person.age=19
 }
 const person={

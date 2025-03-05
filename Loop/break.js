@@ -9,3 +9,12 @@ for(let i=0;i<5;i++) {
   tex +=   i ;
 }
 console.log(`the numbers is ${tex}`) // Output: 012456789
+
+Zentelist:{
+  console.log("mintesnot");
+  console.log("mintesnot");
+  break Zentelist;
+  console.log("mintesnot");
+  console.log("mintesnot");
+
+}

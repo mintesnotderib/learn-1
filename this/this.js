@@ -37,3 +37,8 @@ const alemu={
 
 let borrow=abebe.info.bind(alemu);
 console.log(borrow)
+
+
+function a(){console.log(this)}
+function b(){a()}
+b()

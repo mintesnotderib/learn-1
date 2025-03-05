@@ -15,7 +15,7 @@ x=5;
  console.log(x);//multiply by 2^n 
  let z = true;
 let y = false;
-z &&= y; // x becomes false
+z &&= y; // z becomes false
  x = false;
  y = true;
 x ||= y; // x becomes true

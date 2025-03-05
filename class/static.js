@@ -3,7 +3,7 @@ class car {
   this.model=a;
  }
  static hello(x){
-  return " you have to call me car.hello() because  i am " + x.model +" "+ this.name;//car b/c static is the class not a created object
+  return " you have to call me car.hello() because  i am " + x.model +" "+ this.name;// car b/c static is the class not a created object
  }
 }
 const mycar=new car("ford");

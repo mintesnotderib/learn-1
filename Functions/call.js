@@ -7,7 +7,7 @@ const person={
  firstname:"Mintesnot",
  lastname:"derib",
  greeting:function(city,country){
-  return this.name+": hi mintesnot god bless you"+this.city+this.country ;
+  return this.name+": hi mintesnot god bless you"+city+country ;
  }
 }
 const x=me.call(person,19);
@@ -16,7 +16,7 @@ console.log(person)
 const person1={
  name:"helen"
 }
-const love=person.greeting.call(person1);
+const love=person.greeting.call(person1,["Nefas mewucha","Ethiopia"]);
 console.log(love);
 
 const car={

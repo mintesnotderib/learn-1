@@ -18,3 +18,5 @@ console.log(Math.sin(90 * Math.PI / 180))//returns 1 (the sine of 90 degrees)
  console.log(Math.random() ) // random number between 0 and 1 and exlusive 1
  console.log(Math.log(10));// the base is natural logarithm
  console.log(Math.log10(10));//  1 the base is 10
+
+ console.log(Math.SQRT2)

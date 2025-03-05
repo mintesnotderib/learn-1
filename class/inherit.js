@@ -8,8 +8,8 @@ class parent {
  }
 }
 class member extends parent {
- constructor(name,age,ability) {
-  super(name, age)
+ constructor(he,ab,ability) {
+  super(he, ab)
 this.effecincy=ability;
 
  }
@@ -20,3 +20,4 @@ this.effecincy=ability;
 const myfam = new member("BOA", 2025," good performancer ");
 console.log(myfam.family(28));
 console.log(myfam.show())
+console.log(myfam,parent,member)
